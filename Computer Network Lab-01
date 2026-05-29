@@ -1,0 +1,91 @@
+1. Network Topology
+Topology Used: Star Topology
+
+Internet
+                     |
+                  Router
+                     |
+                  Switch
+             /    /   |   \    \
+           PC1  PC2 Laptop PC3 Printer
+                     |
+                Access Point
+                     |
+                Mobile Phone
+Components Used
+Router
+Switch
+Access Point
+Desktop Computers
+Laptop
+Printer
+Mobile Phone
+2. Network Devices and Their Functions
+Router
+A router connects the local network to the Internet and forwards data packets between networks.
+Switch
+A switch connects multiple devices within the LAN and allows communication between them.
+Access Point
+An access point provides wireless connectivity to devices using Wi-Fi.
+Computer/Laptop
+These are end-user devices used to access network resources.
+Printer
+A network printer allows multiple users to print documents through the LAN.
+3. Connection Types
+Wired Connection (Ethernet)
+Used for:
+Desktop Computers
+Printer
+Router to Switch Connection
+Wireless Connection (Wi-Fi)
+Used for:
+Laptop
+Mobile Phone
+Tablet Devices
+4. Network Speed Measurement
+Tools Used
+Task Manager
+ipconfig
+getmac
+netsh wlan show interfaces
+Commands
+Batch file
+ipconfig
+Batch file
+getmac
+Batch file
+netsh wlan show interfaces
+Observed Speed
+Connection Type
+Speed
+Wired Ethernet
+100 Mbps
+Wireless Wi-Fi
+72 Mbps
+5. System Network Details
+Command Used
+Batch file
+ipconfig
+Batch file
+getmac
+Network Parameters
+Parameter
+Value
+MAC Address
+XX-XX-XX-XX-XX-XX
+IPv4 Address
+192.168.1.100
+Subnet Mask
+255.255.255.0
+6. Observations
+Difference Between Wired and Wireless Network
+Wired connections provide higher speed and stability.
+Wireless connections provide mobility and convenience.
+Wired networks are less affected by interference.
+Wireless networks may experience signal loss and speed variations.
+Role of Subnet Mask
+Subnet mask divides an IP address into network and host portions.
+It helps identify whether a device belongs to the same network or a different network.
+It improves network management and communication.
+Conclusion
+This experiment was conducted to study LAN topology, networking devices, connection types, network speed, and address configuration. A star topology was observed, and the functions of various network devices were studied. The network parameters such as MAC Address, IPv4 Address, and Subnet Mask were obtained using networking commands. The experiment helped in understanding the basic concepts of computer networking and LAN communication.
